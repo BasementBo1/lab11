@@ -18,4 +18,13 @@ def find_lowercase_vowel(msg: str):
         if char in 'aeiou':
             return index
     return len(msg)
+<<<<<<< HEAD
 "# New change for testing webhook" 
+=======
+
+def auto_build():
+    """
+    This function is only for Jenkins auto build changes
+    """
+    print("If you see this message it means webhook is working")
+>>>>>>> c0367356292fec35ba975031502b634b37485267
